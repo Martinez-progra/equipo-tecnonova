@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Catálogo de Talleres - CECyT 9</title>
-  <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talleres CECyT 9</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>talleres CECyT 9</h1>
-        <p>Selecciona un taller para registrar tu asistencia</p>
-    </header>
-    <main>
-        <section class="catalogo">
-            <article class="tarjeta">
-                <h2><a href="detalle.html">Introducción a Python</a></h2>
-                <p>Instructor: Ing. Maria Conchita Alonso</p>
-                <p>Fecha: 28/09/2011</p>
-            </article>
-        <article class="tarjeta">
-                <h2><a href="detalle.html">Redes y Compus</a></h2>
-                <p>Instructor: Ing. Daniel Gutiérrez Cabrera</p>
-                <p>Fecha: 28/09/2011</p>
-            </article>
-            <article class="tarjeta">
-                <h2><a href="detalle.html">Analisis del GTA6</a></h2>
-                <p>Instructor: Ing. Ivan Alejandro Gutierez</p>
-                <p>Fecha: 28/09/2011</p>
-            </article>
-        </section>
-    </main>
-   <p>Presiona para volver al index principal <a href="../index.html">aqui</a></p>
-    <footer>
-        <p>Para Mejor contacto venga a la Batiz</p>
-    </footer>
+
+    <div class="container">
+        <h1>Talleres CECyT 9</h1>
+        <p class="subtitle">Selecciona un taller para registrar tu asistencia</p>
+
+        <div class="cards-grid">
+            <div class="card">
+                <h2 class="card-title">Introducción a Python</h2>
+                <div class="card-info">
+                    <span>Instructor: Ing. María López</span>
+                    <span>Fecha: 2026-08-10</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2 class="card-title">Fundamentos de Redes</h2>
+                <div class="card-info">
+                    <span>Instructor: Ing. Carlos Ramírez</span>
+                    <span>Fecha: 2026-08-12</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2 class="card-title">Diseño de Bases de Datos</h2>
+                <div class="card-info">
+                    <span>Instructor: Ing. Ana Torres</span>
+                    <span>Fecha: 2026-08-14</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
