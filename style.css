@@ -1,0 +1,86 @@
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #f4f5f7; 
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 60px 20px 10px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+    color: #1a1a1a;
+}
+
+header p {
+    color: #666;
+    font-size: 1.1rem;
+    margin-top: 0;
+}
+
+main {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.tarjeta {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.tarjeta h2 {
+    font-size: 1.4rem;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.tarjeta h2 a {
+    text-decoration: none;
+    color: #222;
+}
+
+.tarjeta h2 a:hover {
+    color: #007bff;
+}
+
+.tarjeta p {
+    color: #555;
+    line-height: 1.5;
+    margin: 8px 0;
+}
+
+body > p {
+    max-width: 950px;
+    margin: 20px auto;
+    padding: 0 20px;
+    color: #666;
+}
+
+body > p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer {
+    max-width: 950px;
+    margin: 20px auto;
+    padding: 20px;
+    border-top: 1px solid #eaeaea;
+    color: #888;
+}
